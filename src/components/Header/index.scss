@@ -1,0 +1,86 @@
+.Headertop {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: var(--green-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .SearchSection {
+        width: 250px;
+        input {
+            background: transparent;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            outline: none;
+            border-bottom: 1px solid #fff;
+
+            &::placeholder {
+                color: white;
+            }
+        }
+    }
+    .HeaderRight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        .HeaderRightAuthentication {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            a {
+                color:white;
+            }
+
+            p {
+                color: white;
+            }
+        }
+        .HeaderIcons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+    .WebsiteLogo {
+        height: 50px;
+        img  {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.Header {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background: var(--white-color);
+        li {
+            a {
+                color: var(--green-color);
+                font-weight: 500;
+                font-size: 21px;
+                cursor: pointer;
+
+                &:hover {
+                    color: var(--light-green);
+                }
+            }
+        }
+    }
+}
